@@ -1,6 +1,6 @@
-# Future Travel Dashboard
+# RedRoute
 
-This is a single-page application combining bus and train ticket search built with React and Vite. It features a futuristic design powered by Tailwind CSS and Framer Motion.
+RedRoute is an experimental booking interface for buses and trains. The app uses React, TailwindCSS and Three.js to deliver animated transitions, 3D seat selection and a reactive background inspired by Sony Xperia devices.
 
 ```
 cd app
@@ -8,4 +8,4 @@ npm install
 npm run dev
 ```
 
-Use the toggle to switch between bus and train modes, pick your route and date, and hit search.
+Navigate through the pages to search for routes, pick seats in 3D and complete passenger details. The background responds to cursor movement for an immersive feel.

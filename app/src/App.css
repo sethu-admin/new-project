@@ -1,1 +1,5 @@
 /* custom styles for the future dashboard */
+body {
+  background: radial-gradient(circle at 50% 50%, rgba(61,35,122,0.8), #000);
+  transition: background 0.2s;
+}

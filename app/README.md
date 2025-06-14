@@ -1,4 +1,4 @@
-# Future Travel Dashboard
+# RedRoute Application
 
 This directory hosts the React application powered by Vite.
 
