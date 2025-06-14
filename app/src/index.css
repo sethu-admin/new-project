@@ -1,0 +1,11 @@
+html, body, #root {
+  height: 100%;
+}
+.day body {
+  background: linear-gradient(to bottom right, #f0e6ff, #d7ecff);
+  color: #000;
+}
+.night body {
+  background: linear-gradient(to bottom right, #1f2937, #4b5563);
+  color: #fff;
+}
