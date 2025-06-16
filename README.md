@@ -1,6 +1,6 @@
 # RedRoute
 
-RedRoute is an experimental booking interface for buses and trains. The app uses React, TailwindCSS and Three.js to deliver animated transitions, 3D seat selection and a reactive background inspired by Sony Xperia devices.
+RedRoute is an experimental booking interface for buses and trains. The app uses React, TailwindCSS, Material UI and Three.js to deliver animated transitions, 3D seat selection and a reactive background inspired by Sony Xperia devices.
 
 ```
 cd app
