@@ -1,5 +1,6 @@
 import { motion as Motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+import { Link as RouterLink } from 'react-router-dom'
+import { Button } from '@heroui/react'
 import AnimatedBackground from '../components/AnimatedBackground'
 
 export default function Welcome() {
@@ -10,8 +11,12 @@ export default function Welcome() {
         Welcome to RedRoute
       </Motion.h1>
       <div className="space-x-4">
-        <Link to="/search" className="px-6 py-2 bg-purple-700 rounded-full hover:bg-purple-600">Start Your Journey</Link>
-        <Link to="/account" className="px-6 py-2 bg-white/20 rounded-full hover:bg-white/40">Account</Link>
+        <Button as={RouterLink} to="/search" color="primary" variant="solid">
+          Start Your Journey
+        </Button>
+        <Button as={RouterLink} to="/account" variant="bordered" color="secondary">
+          Account
+        </Button>
       </div>
     </div>
   )
