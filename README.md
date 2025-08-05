@@ -5,6 +5,7 @@ RedRoute is an experimental booking interface for buses and trains. The app uses
 ```
 cd app
 npm install
+npm run lint   # optional step to check code style
 npm run dev
 npm run build   # optional production build
 npm run preview # preview production build
